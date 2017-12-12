@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/main"
+    android:layout_height="match_parent">
+
+
+
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:background="@color/colorAccent"
+            android:padding="8dp"
+            android:id="@+id/colorlay"
+            android:layout_marginTop="18dp"
+            android:layout_height="95dp">
+
+            <TextView
+                android:id="@+id/note_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="8dp"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/note_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/note_title"
+                android:layout_marginBottom="8dp"
+               android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="#79ffffff" />
+
+            <TextView
+                android:id="@+id/note_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/note_content"
+                android:textColor="#79ffffff"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/note_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+</RelativeLayout>

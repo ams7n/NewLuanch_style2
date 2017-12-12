@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NewLuanch</string>
+    <string name="setting">系统设置</string>
+    <string name="board">标注白板</string>
+    <string name="finder">文件管理</string>
+    <string name="sorce">信号源</string>
+    <string name="app">应用程序</string>
+    <string name="s_atv">模拟电视</string>
+    <string name="s_hdml1">高清 1</string>
+    <string name="s_hdml2">高清 2</string>
+    <string name="s_hdml3">高清 3</string>
+    <string name="s_hdml4">内置高清</string>
+    <string name="s_usb">USB</string>
+    <string name="s_yrpb">色差</string>
+    <string name="s_home">首页</string>
+    <string name="s_vga1">电脑 1</string>
+    <string name="s_vga2">电脑 2</string>
+    <string name="s_vga3">电脑 3</string>
+    <string name="s_vga4">电脑 4</string>
+    <string name="s_dtv">数字电视</string>
+    <string name="no_signal">无信号</string>
+    <string name="empty">未添加笔记</string>
+    <string name="uninstanll">无记录</string>
+    <string name="idea">创意</string>
+    <string name="notebook">记事本</string>
+    <string name="work">工作</string>
+    <string name="cards">信用卡</string>
+    <string name="read">阅读</string>
+    <string name="bill">消费</string>
+    <string name="games">游戏</string>
+    <string name="notes"> 条记录</string>
+
+
+
+</resources>

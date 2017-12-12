@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/board"
+        android:state_pressed="false"/><!-- 是否按下，如一个按钮触摸或者点击 -->
+    <item
+        android:drawable="@drawable/board"
+        android:state_selected="true"/><!-- 被选中 -->
+    <item
+        android:drawable="@drawable/func_selected_white_board"
+        android:state_enabled="true"/><!--能够接受触摸或者点击事件  -->
+</selector>

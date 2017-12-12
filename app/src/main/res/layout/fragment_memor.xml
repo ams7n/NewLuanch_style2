@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/memo"
+    android:fitsSystemWindows="true"
+
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_marginTop="25dp"
+        android:layout_width="746dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_memo"
+        android:layout_height="420dp"
+        android:id="@+id/relativeLayout2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/round_memo2"
+            android:elevation="2dp"
+            android:id="@+id/relativeLayout">
+
+
+            <ImageButton
+                android:id="@+id/add"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:src="@mipmap/add_nomar"
+               />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#3E3E3E"
+                android:text="记事本" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/list"
+             android:layout_marginTop="2dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:layout_below="@+id/relativeLayout"
+           ></ListView>
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/empty"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

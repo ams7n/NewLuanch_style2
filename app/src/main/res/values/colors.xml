@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="back">#65000000</color>
+    <color name="foutext">#76b6ff</color>
+    <color name="Touming">#00000000</color>
+    <color name="icon_back">#75ffffff</color>
+    <color name="text_color">#4a4a4a</color>
+    <color name="white">#ffffff</color>
+    <color name="main">#f2f2f2</color>
+    <color name="back_small_main">#99000000</color>
+    <color name="f9">#F9F9F9</color>
+    <color name="gray">#aa4d4d4d</color>
+    <color name="memo_big">#7774a9</color>
+    <color name="memo_small">#c5c3c5</color>
+</resources>

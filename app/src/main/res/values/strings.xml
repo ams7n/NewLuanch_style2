@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NewLuanch</string>
+    <string name="setting">Settings</string>
+    <string name="board">Paint</string>
+    <string name="finder">File Explorer</string>
+    <string name="sorce">Source</string>
+    <string name="app">Applications</string>
+    <string name="s_atv">ATV</string>
+    <string name="s_hdml1">HDMI 1</string>
+    <string name="s_hdml2">HDMI 2</string>
+    <string name="s_hdml3">HDMI 3</string>
+    <string name="s_hdml4">OPS</string>
+    <string name="s_usb">USB</string>
+    <string name="s_yrpb">YPBPR</string>
+    <string name="s_home">Home</string>
+    <string name="s_vga1">VGA 1</string>
+    <string name="s_vga2">VGA 2</string>
+    <string name="s_vga3">VGA 3</string>
+    <string name="s_vga4">VGA 4</string>
+    <string name="s_dtv">DTV</string>
+    <string name="no_signal">No Signal</string>
+    <string name="empty">No Note</string>
+    <string name="uninstanll">uninstalled installation package</string>
+    <string name="idea">Idea</string>
+    <string name="notebook">Note</string>
+    <string name="work">Work</string>
+    <string name="cards">Cards</string>
+    <string name="read">Read</string>
+    <string name="bill">Bill</string>
+    <string name="games">Games</string>
+    <string name="notes"> Notes</string>
+</resources>
